@@ -34,7 +34,7 @@ export const storeUserData = async () => {
                 accountId: user.$id,
                 email: user.email,
                 name: user.name,
-                imageUrl: profilePicture,
+                imageUrls: profilePicture,
                 joinedAt: new Date().toISOString(),
             }
         );
